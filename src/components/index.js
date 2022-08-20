@@ -1,13 +1,16 @@
 import React from 'react';
+import Header from './Header';
+import SolarSystem from './SolarSystem';
 
-class Header extends React.Component {
+class Index extends React.Component {
   render() {
     return (
-      <header>
-        <h1>Sistema Solar</h1>
-      </header>
+      <section>
+        <Header />
+        <SolarSystem />
+      </section>
     );
   }
 }
 
-export default Header;
+export default Index;

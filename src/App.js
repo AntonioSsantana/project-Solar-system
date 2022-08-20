@@ -1,14 +1,10 @@
 import React from 'react';
-import Header from './components';
-import SolarSystem from './components/SolarSystem';
+import Index from './components';
 
 class App extends React.Component {
   render() {
     return (
-      <div>
-        <Header />
-        <SolarSystem />
-      </div>
+      <Index />
     );
   }
 }
