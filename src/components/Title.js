@@ -1,9 +1,9 @@
-import React from "react";
+import React from 'react';
 
-function Title(headline){
+function Title(headline) {
   return (
     <h2>{headline}</h2>
-  )
+  );
 }
 
 export default Title;
